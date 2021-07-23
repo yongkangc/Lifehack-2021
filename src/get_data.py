@@ -6,8 +6,8 @@ import numpy as np
 
 # models
 # face and eyes are templates from opencv
-face_cascade = cv2.CascadeClassifier('haarcascade_files/haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('haarcascade_files/haarcascade_eye.xml')
+face_cascade = cv2.CascadeClassifier('src/haarcascade_files/haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier('src/haarcascade_files/haarcascade_eye.xml')
 
 # frame params
 frame_w = 1200

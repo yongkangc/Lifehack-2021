@@ -27,15 +27,18 @@ scale_factor = 1.1
 min_neighbours = 5
 
 # Video writer
-# IMPORTANT:
-# - frame width and height must match output frame shape
-# - avi works on ubuntu. mp4 doesn't :/
-fourcc = cv2.VideoWriter_fourcc(*"MJPG")
-video_out = cv2.VideoWriter('video_out.avi', fourcc, 10.0,(1200, 900))
-
 # init camera window
 cv2.namedWindow('Watcha Looking At?')
 camera = cv2.VideoCapture(0)
+
+# IMPORTANT:
+# - frame width and height must match output frame shape
+# - avi works on ubuntu. mp4 doesn't :/
+size = (int(camera.get(cv2.CAP_PROP_FRAME_WIDTH)),
+        int(camera.get(cv2.CAP_PROP_FRAME_HEIGHT)))
+fourcc = cv2.VideoWriter_fourcc('M','J','P','G')
+video_out = cv2.VideoWriter()
+video_out.open('video_out.avi', fourcc, 10.0,(int(camera.get(3)),int(camera.get(4))))
 
 # Check if camera opened successfully
 if (camera.isOpened() == False): 
@@ -113,7 +116,7 @@ while True:
         video_out.write(frame)
 
         # display frame in window
-        cv2.imshow('Watcha Looking At?', frame)
+        cv2.imshow('Lifehack 2', frame)
 
         # quit with q
         if cv2.waitKey(1) & 0xFF == ord('q'):
