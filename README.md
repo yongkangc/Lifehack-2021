@@ -1,9 +1,5 @@
 # Distraction Detector
 
-Originally created for the Vancouver School of AI [Image Classification Workshop](https://github.com/SchoolofAI-Vancouver/learn_image_classification_2) Code Challenge.
-
-![demo](additional/demo.gif)
-
 The Distraction Detector works as follows:
 
 1. Uses the default OpenCV [Haar Cascade Face Detector](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml) to detect a person's face.
