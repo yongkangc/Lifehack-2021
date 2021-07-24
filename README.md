@@ -19,8 +19,6 @@ Due to the pandemic, many school systems around the world have been upended, res
 A user interview with one of our group member’s parents - who are both primary school teachers, showed that one of most significant challenges for teachers is maintaining their student’s attention, engagement, and distractibility levels in the flipped. “Being unable to see our students face-to-face has made it more difficult to understand their attention and engagement during lessons. This makes the task of knowing if our students are paying attention very challenging, especially when I have to look out for over 30 students at a time,” shares XX. 
 
 
-
-
 ### What it does 
 Nirvana allows teachers to understand the attention and engagement levels of their students during flipped classrooms. Our solution identifies when students are distracted during their own learning of class materials, and during online class time. Through detecting student’s eye movements and yawns using computer vision algorithms, and through identifying interactions with content through heatmap analytics, Nirvana allows teachers to understand students’ engagement levels throughout the entire flipped classroom cycle. 
 
@@ -48,35 +46,7 @@ Better student-teacher relationship: Having insights into student engagement lev
 Reduced time and cost in lesson planning: 
 
 
-### Nirvana’s data usage
 
-Data collection: The raw data collected is primarily video data. The video data is analyzed and by detecting student eye movements and yawns using computer vision algorithms, and identifying interactions with the content using heat map analysis, Nirvana can understand student engagement throughout the Flipped Classroom cycle.
-
-Data Storage: The data collected will be stored on a secure cloud server to ensure data privacy. In addition, the raw video data will not be stored, and only the class insights will be stored. Due to data privacy and storage concerns, teachers will only be able to access the data of students they are responsible for.
-
-In addition, as our solution uses facial images, and other biometric information, we will ensure that Nirvana complies with the local General Data Protection Regulation (GDPR).  We will also look to gain the required approval from the authorities, and parents, and also conduct sufficient impact assessment to ensure that Nirvana meets the GDPR requirements. 
-
-
-
-
-
-### Challenges we ran into
-
-Limited training data for our computer vision algorithm: As we are only training the dataset on our faces as well as our own faces, the algorithm might have lower accuracy rate and might be biased to certain nationalities or age. However with more time, we are confident in improving our solution.
-
-Adapting to keep up to date with the latest learning formats: Initially, we built a solution that can only be used for online classes. However, after speaking to teachers, we quickly learnt that the formats of learning can be diverse depending on the schools, lesson type or teacher. Speaking to two teachers helped us to understand that the most popular type of learning format currently is the flipped learning classroom. Hence, we adapted our solution to ensure that it 
-
-Ensuring compliance with GDPR: Ensuring that Nirvana complies with the local General Data Protection Regulation (GDPR) could be a potential challenge we could run into during the implementation of our solution. As our solution uses facial images, and other biometric information, we will need to ensure that we gain the required approval from the authorities, and parents, and also conduct sufficient impact assessment to ensure Nirvana meets the GDPR requirements. 
-
-Accomplishments that we're proud of
-
-Solution validated through user testing:We created an initial mockup of our product and solicited feedback from our target users - teachers. Through their feedback, we were able to better tailor our solution to the problem teachers face when engaging with students in flipped classroom environments.
-
-
-
-What’s next for Nirvana
-
-Other use cases such as mental well-being detection: Students are experiencing increasing stress levels, and lower engagement with learning since the pandemic, according to Stanford. Locally, more teens are seeking help at the Institute of Mental Health (IMH) for school-related stress, according to The Straits Times. With this rising trend in a decreased mental-being, Nirvana can also be adapted to help teachers identify if their students are displaying signs of mental distress. This can help teachers 
 
 
 Below table contains all the important scripts in this repo.
