@@ -1,6 +1,8 @@
 # Nirvana - Reimagining Flipped Classroom Engagement for teachers
 
 ### Front End Prototype
+https://github.com/hjunleon1999/NirvanaFrontend
+https://nirvana-72ef2.web.app/
 
 ### How we built Nirvana’s attention tracking software
 
