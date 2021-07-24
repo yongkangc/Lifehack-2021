@@ -1,5 +1,7 @@
 # Nirvana - Reimagining Flipped Classroom Engagement for teachers
 
+### Front End
+
 ### How we built Nirvana’s attention tracking software
 
 We built the attention tracking software with computer vision. This was how we approached the problem : 
@@ -18,6 +20,21 @@ Below table contains all the important scripts in this repo.
 | [`get_data.py`](https://github.com/ExtremelySunnyYK/Lifehack-2021/blob/master/src/get_data.py)  | Creates training data for Distraction Classifier  |
 | [`train.py`](https://github.com/johannesharmse/ExtremelySunnyYK/Lifehack-2021/master/src/cnn/train.py)  | Creates and trains Distraction Classifier using Keras  |
 | [`distraction_detector.py`](https://github.com/ExtremelySunnyYK/Lifehack-2021/blob/master/src/distraction_detector.py)  | Detects distraction using OpenCV and Keras |
+
+### How to run it?
+```
+pip install 
+virtualenv env python=3.6
+pip install -r requirements.txt
+
+--Linux/Mac OS--
+source env/bin/activate
+
+--Windows--
+env/bin/activate
+
+python src/distraction_detector.py
+```
 
 
 ### Inspiration
