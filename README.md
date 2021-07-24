@@ -21,6 +21,7 @@ Below table contains all the important scripts in this repo.
 | [`train.py`](https://github.com/johannesharmse/ExtremelySunnyYK/Lifehack-2021/master/src/cnn/train.py)  | Creates and trains Distraction Classifier using Keras  |
 | [`distraction_detector.py`](https://github.com/ExtremelySunnyYK/Lifehack-2021/blob/master/src/distraction_detector.py)  | Detects distraction using OpenCV and Keras |
 
+
 ### How to run it?
 ```
 pip install 
@@ -37,7 +38,7 @@ python src/distraction_detector.py
 ```
 
 ### Elevator Pitch
-
+An engagement tracking tool for teachers to view and track their classroom engagement levels. With computer vision, heatmap analytics and an easy-to-use dashboard, Nirvana transforms learning. 
 
 
 
