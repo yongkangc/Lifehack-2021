@@ -49,9 +49,9 @@ This allows teachers to collect anonymised user behaviour to get an overview of 
 
 
 ### Impact of Nirvana: 
-Increased engagement levels:
-Better student-teacher relationship: Having insights into student engagement levels from the teaching materials to online classes allows teachers to understand more about their student’s individual needs and requirements. This allows teachers to develop more personalised lessons, and also enables them to reach out to students who might require more help. 
-Reduced time and cost in lesson planning: 
+- Increased engagement levels
+- Better student-teacher relationship: Having insights into student engagement levels from the teaching materials to online classes allows teachers to understand more about their student’s individual needs and requirements. This allows teachers to develop more personalised lessons, and also enables them to reach out to students who might require more help. 
+- Reduced time and cost in lesson planning
 
 
 
