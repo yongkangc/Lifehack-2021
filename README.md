@@ -11,12 +11,20 @@ Step 2: After detecting the face, the person's eyes are then located using the O
 ### Video Demo
 [![Everything Is AWESOME](additional/demo.png)](https://youtu.be/SJ1-PvWhSbc "Everything Is AWESOME")
 
+Below table contains all the important scripts in this repo.
+
+| File  | Description  |
+|---|---|
+| [`get_data.py`](https://github.com/ExtremelySunnyYK/Lifehack-2021/blob/master/src/get_data.py)  | Creates training data for Distraction Classifier  |
+| [`train.py`](https://github.com/johannesharmse/ExtremelySunnyYK/Lifehack-2021/master/src/cnn/train.py)  | Creates and trains Distraction Classifier using Keras  |
+| [`distraction_detector.py`](https://github.com/ExtremelySunnyYK/Lifehack-2021/blob/master/src/distraction_detector.py)  | Detects distraction using OpenCV and Keras |
 
 
 ### Inspiration
 Due to the pandemic, many school systems around the world have been upended, resulting in teachers having to adopt remote and hybrid learning fast. According to The Harvard Gazette, more than 90% of the world’s schools closed at the height of the pandemic, and about 213 millions students are still fully remote. With the uncertainty of the future scenarios of the pandemic, and with remote learning here to stay, teachers are relying more on alternative approaches such as the flipped classroom approach. While this learning format has been effective, teachers are still finding it incredibly challenging to ensure their students are engaged, especially with the lack of face-to-face lessons. 
 
 A user interview with one of our group member’s parents - who are both primary school teachers, showed that one of most significant challenges for teachers is maintaining their student’s attention, engagement, and distractibility levels in the flipped. “Being unable to see our students face-to-face has made it more difficult to understand their attention and engagement during lessons. This makes the task of knowing if our students are paying attention very challenging, especially when I have to look out for over 30 students at a time,” shares XX. 
+
 
 
 ### What it does 
@@ -49,10 +57,3 @@ Reduced time and cost in lesson planning:
 
 
 
-Below table contains all the important scripts in this repo.
-
-| File  | Description  |
-|---|---|
-| [`get_data.py`](https://github.com/ExtremelySunnyYK/Lifehack-2021/blob/master/src/get_data.py)  | Creates training data for Distraction Classifier  |
-| [`train.py`](https://github.com/johannesharmse/ExtremelySunnyYK/Lifehack-2021/master/src/cnn/train.py)  | Creates and trains Distraction Classifier using Keras  |
-| [`distraction_detector.py`](https://github.com/ExtremelySunnyYK/Lifehack-2021/blob/master/src/distraction_detector.py)  | Detects distraction using OpenCV and Keras |
