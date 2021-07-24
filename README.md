@@ -4,9 +4,9 @@
 
 We built the attention tracking software with computer vision. This was how we approached the problem : 
 
-Step 1: We Used OpenCV [Haar Cascade Face Detector] to detect a person's face.
+Step 1: We Used Haar Cascade Face Detector from OpenCV to detect a person's face.
 
-Step 2: After detecting the face, the person's eyes are then located using the OpenCV and a pretrained Convolutional Neural Network (CNN) is used to predict whether a person is distracted or not using a binary classifier. The CNN was trained on eye images created by us where we took open data sets of people who looked distracted and focused in online meetings as well as data from our faces.
+Step 2: After detecting the face, the person's eyes are then located using the OpenCV and a pretrained Convolutional Neural Network (CNN) is used to predict whether a person is distracted or not using a binary classifier. The CNN was trained on eye images created by us where we took open data sets of people who looked distracted and focused as well as data from our faces.
 
 ### Video Demo
 [![Everything Is AWESOME](additional/demo.png)](https://youtu.be/SJ1-PvWhSbc "Everything Is AWESOME")
