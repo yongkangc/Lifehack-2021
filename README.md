@@ -1,4 +1,4 @@
-# Distraction Detector
+# Lifehack Detector
 
 ### Video Demo
 [![Everything Is AWESOME](additional/demo.png)](https://youtu.be/SJ1-PvWhSbc "Everything Is AWESOME")
