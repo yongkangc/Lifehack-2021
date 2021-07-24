@@ -1,14 +1,26 @@
-import cv2
-from streamlit_webrtc import VideoTransformerBase, webrtc_streamer
+from flask import Flask, render_template, Response
+from camera import VideoCamera
 
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+app = Flask(__name__)
 
-class VideoTransformer(VideoTransformerBase):
-    def transform(self, frame):
-        img = frame.to_ndarray(format="bgr24")
+@app.route('/')
+def index():
+    # rendering webpage
+    return render_template('index.html')
 
-        img = cv2.cvtColor(cv2.Canny(img, 100, 200), cv2.COLOR_GRAY2BGR)
+def gen(camera):
+    while True:
+        #get camera frame
+        frame = camera.get_frame()
+        yield (b'--frame\r\n'
+               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
 
-        return img
-
-
-webrtc_streamer(key="example", video_transformer_factory=VideoTransformer)
+@app.route('/video_feed')
+def video_feed():
+    return Response(gen(VideoCamera()),
+                    mimetype='multipart/x-mixed-replace; boundary=frame')
+if __name__ == '__main__':
+    # defining server ip address and port
+    app.run(host='0.0.0.0',port='5000', debug=True)
