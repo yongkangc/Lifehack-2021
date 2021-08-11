@@ -1,5 +1,15 @@
 # Nirvana - Reimagining Flipped Classroom Engagement for teachers
 
+[Life hack 2021](https://lifehack-2021.devpost.com/)
+
+Won Most Impressive Usage of Data
+
+Team 
+Kerfui Chang
+Jun leong Hoe
+Carmen Chan
+Yong Kang Chia
+
 ### Front End Prototype
 https://github.com/hjunleon1999/NirvanaFrontend
 
