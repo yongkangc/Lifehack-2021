@@ -5,10 +5,10 @@
 Won Most Impressive Usage of Data
 
 Team 
-Kerfui Chang
-Jun leong Hoe
-Carmen Chan
-Yong Kang Chia
+- Kerfui Chang
+- Jun leong Hoe
+- Carmen Chan
+- Yong Kang Chia
 
 ### Front End Prototype
 https://github.com/hjunleon1999/NirvanaFrontend
